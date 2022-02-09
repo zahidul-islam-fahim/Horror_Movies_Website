@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dongle&family=Roboto&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.links{
+    background-image: url(photos/wallpaper2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 92.3vh;
+    padding: 25px;
+}
+
+.links h1{
+    color: #bb0a1e;
+    font-family: 'Creepster', cursive;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: right;
+}
+
+.navbar a{
+    padding-left: 2.5rem;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.navbar a:hover{
+    color: #bb0a1e;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 5rem;
+    padding-top: 12.5%;
+}
+
+.heading p{
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.button{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.button a{
+    text-decoration: none;
+    background-color: #bb0a1e;
+    font-size: 2.5rem;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.button a:hover{
+    background-color: #ffffff;
+    color: #bb0a1e;
+}
+
+.footer{
+    background-color: #3a3d3a;
+    color: #ffffff;
+    height: 10vh;
+}
+
+.footer p{
+    text-align: center;
+    line-height: 10vh;
+    font-size: 1.6rem;
+}
+
+.footer span{
+    color: #000000;
+}
+
+@media(max-width: 998px){
+    html {
+        font-size: 55%
+    }
+}
+
+@media(max-width: 768px){
+    html {
+        font-size: 45%
+    }
+}

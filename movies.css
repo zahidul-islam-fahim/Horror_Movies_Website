@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dongle&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.links{
+    background-color: rgb(0,0,0,0.4);
+    height: 100%;
+    padding: 2.5rem;
+}
+
+.links h1{
+    color: #bb0a1e;
+    font-family: 'Creepster', cursive;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: right;
+}
+
+.navbar a{
+    padding-left: 2.5rem;
+    text-decoration: none;
+    font-family: 'Dongle', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.navbar a:hover{
+    color: #bb0a1e;
+}
+
+.heading h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 3rem 0rem;
+}
+
+.moviesA, .moviesB, .moviesC, .moviesD, .moviesS, h2{
+    color: #bb0a1e;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.moviesA-flex, .moviesB-flex, .moviesC-flex, .moviesD-flex, .moviesS-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.moviesA-flex, .moviesB-flex, .moviesC-flex, .moviesD-flex, .moviesS-flex, a{
+    text-decoration: none;
+}
+
+.moviesA-flex, .moviesB-flex, .moviesC-flex, .moviesD-flex, .moviesS-flex, p{
+    text-align: center;
+    color: #000000;
+}
+
+.footer{
+    background-color: #3a3d3a;
+    height: 10vh;
+}
+
+.footer p{
+    text-align: center;
+    line-height: 10vh;
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
+.footer span{
+    color: #000000;
+}
+
+@media(max-width: 998px){
+    html {
+        font-size: 55%
+    }
+}
+
+@media(max-width: 768px){
+    html {
+        font-size: 45%
+    }
+}
